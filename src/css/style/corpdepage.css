@@ -1,0 +1,97 @@
+/* titre "qui suis-je" */
+#quisuisje
+{
+	text-align: center;
+	font-size: 80px;
+	display:flex;
+	margin-top: 20px;
+	justify-content: center;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "qui suis-je" */
+
+#listequisuisje
+{
+	border-width:2px;
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+	text-align: center;
+	
+}
+
+
+
+/* titre "formation" */
+
+#formation
+{
+	text-align: center;
+	font-size: 80px;
+	display:flex;
+	margin-top: 20px;
+	justify-content: center;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "formation" */
+#listeformation
+{
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+/* titre "experience professionnel" */
+#experiencepro
+{
+	text-align: center;
+	font-size: 80px;
+	display:flex;
+	margin-top: 20px;
+	justify-content: center;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "experience professionel" */
+#listeexperiencepro
+{ 
+	display: flex;
+	text-align: center
+	display:flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+
+
+/* titre "loisir" */
+#loisir
+{
+	text-align: center;
+	font-size: 80px;
+	display:flex;
+	margin-top: 20px;
+	justify-content: center;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "loisir" */
+#listeloisir
+{
+	display:flex;
+	margin-top: 20px;
+	justify-content: center;
+	text-align: center;
+}

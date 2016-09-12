@@ -1,0 +1,98 @@
+img.imageprofil {
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px; }
+
+#titre {
+  background-repeat: no-repeat;
+  /*pas de repitition de mon font */
+  background-position: center center;
+  /*positionement de mon font au centre*/
+  display: flex;
+  color: #000000;
+  /*couleur */
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  text-align: center;
+  /*alignement du texte */
+  font-size: 90px;
+  /* taille du texte */
+  font-family: 'Plume', Georgia, serif;
+  margin-top: 5%;
+  justify-content: center; }
+
+/* CONFIDURATION DU MENU */
+ul#menu {
+  /* configuration du menu */
+  padding: 0;
+  text-align: center;
+  /* alignement du texte */
+  margin-top: 60px; }
+
+ul#menu li {
+  display: inline; }
+
+ul#menu li a {
+  background-color: black;
+  /* couleur de fond du menu : noir */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  /* decoration du texte : aucun */
+  border-radius: 4px 4px 0 0; }
+
+ul#menu li a:hover {
+  background-color: orange; }
+
+/* style fond de page */
+body {
+  background-image: url(http://img0.gtsstatic.com/wallpapers/4926128ba55c81237452d89d86b5d4c1_large.jpeg);
+  background-size: cover; }
+
+/* style paragraphe */
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center; }
+
+/* titre des header */
+header.content {
+  font-size: 80px;
+  color: black;
+  text-shadow: #969696 1px 3px 0, #aba8a8 1px 13px 5px; }
+
+#contactweb {
+  margin-top: 80px;
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  /* alignement du texte */
+  margin: auto; }
+
+.imagecontact {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center; }
+
+.imagecontact p {
+  height: 80px;
+  transition: height 1s ease; }
+
+.imagecontact:hover p {
+  height: auto; }
+
+.imagecontact p {
+  transform: scaleY(0);
+  transition: transform 1s ease; }
+
+.imagecontact:hover p {
+  transform: scaleY(1); }
+
+.imagecontact p {
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition: transform 1s ease; }
+
+/*# sourceMappingURL=main.css.map */

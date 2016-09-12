@@ -1,0 +1,11 @@
+body 
+{	background-color: rgb(236,236,236);
+	background-image:url(https://images.alphacoders.com/605/605746.jpg); /*image de fond de site web*/
+	background-image:no-repeat; /* configuration de l'image : pas de repetition */
+	background-attachment: 50% 50% fixed;
+	background-size: cover;
+}
+
+
+
+	

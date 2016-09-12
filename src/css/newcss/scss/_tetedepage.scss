@@ -1,0 +1,54 @@
+img.imageprofil /*mon image de profil de mon site web */
+{
+   width: 200px;
+   border-radius: 200px;
+   margin-top: 20px;
+   margin-left: 500px;
+   margin-right: 500px;
+}
+
+
+#titre /*titre principal de mon site */
+{
+	background-repeat: no-repeat; /*pas de repitition de mon font */
+	background-position:center center; /*positionement de mon font au centre*/
+	display:flex;
+	color:#000000; /*couleur */
+	text-shadow:2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+	text-align: center; /*alignement du texte */
+	font-size:90px; /* taille du texte */
+    font-family: 'Plume', Georgia, serif;
+	margin-top: 5%;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+/* CONFIDURATION DU MENU */
+
+
+ul#menu { /* configuration du menu */
+    padding: 0;
+	text-align: center; /* alignement du texte */
+	margin-top: 60px
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black; /* couleur de fond du menu : noir */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* decoration du texte : aucun */
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}

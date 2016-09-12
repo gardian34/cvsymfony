@@ -1,0 +1,18 @@
+/* style fond de page */
+body{
+	background-image: url(http://img0.gtsstatic.com/wallpapers/4926128ba55c81237452d89d86b5d4c1_large.jpeg);
+	background-size: cover;
+}
+/* style paragraphe */
+.content{
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+	text-align: center;
+}
+/* titre des header */
+header.content{
+	font-size: 80px;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
